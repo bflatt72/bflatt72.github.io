@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>FlattDev</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2023-05-11T02:30:40-04:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Brian Flatt</name>
+   <email>beatz72@duck.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Flasktutorial</title>
+   <link href="http://localhost:4000/2019/01/03/FlaskTutorial/"/>
+   <updated>2019-01-03T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2019/01/03/FlaskTutorial</id>
+   <content type="html">&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Started the &lt;a href=&quot;https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world&quot;&gt;Mega Flask Tutorial&lt;/a&gt; by Miguel Grinberg. It’s a great tutorial that has you build a web app in Flask. So far I’ve completed the first 3 lessons. Pushed the files to a project repo on Github at &lt;a href=&quot;https://github.com/bflatt72/projects/tree/master/microblog&quot;&gt;Microblog&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pushed my blog post creation Python script to github. It can be seen at &lt;a href=&quot;https://github.com/bflatt72/BlogInitScript&quot;&gt;BlogInitScript&lt;/a&gt;. As discussed in previous blog this script automates the process of creating a blog post file in Jekyll. This is a work in progress and I plan on improving it as I learn more.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Created a global gitignore file so that extraneous system and editor files are not pushed to my repos.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Future projects:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Continue and finish the Mega Flask tutorial&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a twitter bot in Python that will auto post my blog posts.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Re-visit my portfolio page and fix the mobile responsiveness. It’s not quite right.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add a couple projects to the placeholder areas on my portfolio.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Continue studying Python&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Books I want to buy and work through&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Automate the Boring Stuff with Python&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Python Crash Course&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Python Tricks&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Invent Your Own Computer Games with Python&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;School starts again Jan 14. Taking Calc 2 and Computer Science 2, which is Data Structures and Algorithms. God help me!!!&lt;/p&gt;
+
+&lt;p&gt;The other evening I got sucked into a 2 hour discussion/argument on Twitter about politics. I have gotten good at mostly ignoring these kinds of things and not participating but every so often I do still find myself sucked into them. Then several hours pass and I realize what a huge time sink it is with absolutely nothing gained from the endeavor. I subsequently deleted all of those tweets of mine because I don’t want my Twitter to be political at all. I have strong opinions of my own but by putting my opinions out there in such a public manner, I run the risk of alienating people. That’s not smart and not what I want to do. I have carefully curated my Twitter feed to only include educational accounts, science, programming, computer science and web development and as long as I stick to that, Twitter has proven to be a fantastic resource for finding and engaging with amazing people and information.&lt;/p&gt;
+
+&lt;p&gt;Been blown away too with what a fantastic resource Hacker News is. A wealth of great resources are shared there, not just related to esoteric programming subjects but to science and philosophy too.&lt;/p&gt;
+
+&lt;p&gt;One such is a pdf article that was written in 1939 by Abraham Flexner called &lt;a href=&quot;https://library.ias.edu/files/UsefulnessHarpers.pdf&quot;&gt;The Usefulness of Useless Knowledge&lt;/a&gt; Well worth the read and highly recommended by yours truly. Check it out.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>New Year 2019</title>
+   <link href="http://localhost:4000/2019/01/02/New-year-2019/"/>
+   <updated>2019-01-02T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2019/01/02/New-year-2019</id>
+   <content type="html">&lt;h1 id=&quot;new-year-2019-and-coding-education-update&quot;&gt;New Year 2019 and coding education update&lt;/h1&gt;
+
+&lt;p&gt;So I’ve been quite productive as of late with my coding education progress and thought I’d share a few cool things.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;100DaysofCode doesn’t really seem to work for me. Not that I havent been coding everyday but I don’t always have time to or I forget to post it to twitter everyday.&lt;/li&gt;
+  &lt;li&gt;I got an A in my Computer Science I class which used C++&lt;/li&gt;
+  &lt;li&gt;I’m on pset3 in CS50. I believe it’s pset3, the music files in c.&lt;/li&gt;
+  &lt;li&gt;I successfully ported my final exam from CS1 from C++ to Python just because. In addition to my formal educaton in CS at local community college, I’m also trying to learn as much as I can on my own and this includes Python. So after learning the basic synstax, I figured what better to truly immerse myself in the language than to try to port my final exam to Python. If I didn’t know how to do something I just googled it. I had some issues with the difference between arrays in C++ and lists in Python and how they are implemented differently but I finally got it and finished the project. I uploaded both solutions to my github and can be seen at:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/bflatt72/projects/blob/master/CISP1010/FinalExam.cpp&quot;&gt;C++ solution:&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/bflatt72/projects/blob/master/CISP1010/LoanSched.py&quot;&gt;Python solution:&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;And maybe the most exciting for me is that I created my very first Python script that does something useful for my workflow. I was about to write this blog post in Jekyll when I realized, “Hey, I bet I could write a python script to automate the task of creating the file with the YAML header and all and open the file in my editor.” So I got down to the business of writing such a script with the help of Google and this is what I came up with and it works. This was truly an eye opener for me. It was like a light switch. Not just doing endless tutorials and learning syntax I could do something useful and learn at the same time. Amazing.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+#!/usr/local/bin/ python3
+
+import time, os, glob, subprocess
+
+
+title = input(&quot;Title:   &quot;)
+cat = input(&quot;Category:  &quot;)
+tags = input(&quot;Tags:  &quot;)
+d = time.strftime(&apos;%Y-%m-%d&apos;)
+
+path = &quot;/Users/FlattDev/Documents/Blog/bflatt72.github.io/_posts&quot;
+
+os.chdir(path)
+
+f = open(&quot;%s-%s.md&quot; % (d, title), &quot;w+&quot;)
+
+print(&quot;------&quot;, file=f)
+print(&quot;Title:%s\r&quot; % title, file=f)
+
+if cat: print(&quot;Categories: %s\r&quot; % cat, file=f)
+if tags: print(&quot;Tags: %s\r&quot; % tags, file=f)
+print(&quot;------&quot;, file=f)
+f.close()
+
+list_of_files = glob.glob(&apos;/users/FlattDev/Documents/Blog/bflatt72.github.io/_posts/*.md&apos;)
+latest_file = max(list_of_files, key=os.path.getctime)
+
+subprocess.call([&apos;vim&apos;, latest_file])
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;What the script does is the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;prompt for post title, category and tags.&lt;/li&gt;
+  &lt;li&gt;sets the current date&lt;/li&gt;
+  &lt;li&gt;gets the path to the _posts folder&lt;/li&gt;
+  &lt;li&gt;changes to that directory&lt;/li&gt;
+  &lt;li&gt;opens the file with the correctly formatted title&lt;/li&gt;
+  &lt;li&gt;prints the YAML header information to the file&lt;/li&gt;
+  &lt;li&gt;closes the file&lt;/li&gt;
+  &lt;li&gt;gets a list of all .md files in that folder&lt;/li&gt;
+  &lt;li&gt;gets the last file added to that folder&lt;/li&gt;
+  &lt;li&gt;opens that file in Vim for editing.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pretty damn cool.&lt;/p&gt;
+
+&lt;p&gt;Then I made a shell alias that points to the script so that it can be executed by just typing the name of the file.&lt;/p&gt;
+
+&lt;p&gt;I’ve been using Vim a lot and getting pretty handy with it but then I downloaded VS Code and was blown away by it. Wow! Game changer. Installed Python extensions and wrote this blog post in it. Set up my terminal to open a file in VS Code by just typing code.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Another related epiphany is that the best way to learn is to do and to build instead of endless tutorials. However, tutorials that actually have you build something are great. Currently working through the Mega Flask tutorial by &lt;a href=&quot;blog.miguelgrinberg.com&quot;&gt;Miguel Grinberg&lt;/a&gt;. It’s a great tutorial that actually has you build a functioning web app.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That’s all for now.&lt;/p&gt;
+
+&lt;p&gt;Happy coding.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Success is a Habit</title>
+   <link href="http://localhost:4000/posts/2018/12/14/Success-is-a-Habit/"/>
+   <updated>2018-12-14T00:00:00-05:00</updated>
+   <id>http://localhost:4000/posts/2018/12/14/Success-is-a-Habit</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;We are what we repeatedly do. Success then, is not an act, but a habit.
+– Aristotle&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So I started going back to school, again, at the age of 46, for Computer Science at my local 
+community college. The current semester just ended and I got an A in Computer Science I and CalculusI. CS used C++ as the programming language. We touched on objects and classes but did not have to
+use them on the final &lt;!--more--&gt;  programming exam. We did have to use functions and an array to calculate a loan schedule on a vehicle based upon user inputted data. I got a perfect score on my implementation.&lt;/p&gt;
+
+&lt;p&gt;I am also trying to learn as much as I can on my own and that includes writing this blog post in 
+Vim. Completed Vimtutor and now trying to use it as much as possible. In addition, I have been
+taking Harvard’s CS50 via &lt;a href=&quot;https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x&quot;&gt;Edx&lt;/a&gt;. So far I have completed ps0 and ps1 and listened to all of the lectures. I now at least know about C (and C++ from school), Python, SQL, Flask, JavaScript, jQuery, JSON files, and of 
+course HTML/CSS.&lt;/p&gt;
+
+&lt;p&gt;In the last couple of months I have also purchased a used 2010 Macbook and upgraded it to High
+Sierra, started using iTerm2, zsh, and ohmyzsh. For school programming we were using visual studio 
+but I switched to XCode on my Macbook. Also learned how to compile and run C++ programs from the 
+command line using g++.&lt;/p&gt;
+
+&lt;p&gt;Been very productive over the last several months and I am incredibly proud of myself but the more 
+you learn the more you realize you don’t know. But when you love to learn it’s not an issue.&lt;/p&gt;
+
+&lt;p&gt;So why am I doing all of this? Well I could fill several blog posts with the long of it, but suffice
+it to say that at the age of 46, and with almost enough college credits to make two bachelor’s 
+degrees, I still don’t even have an Associates degree. A few changes of majors and starting and 
+stopping school over the years and a plethora of bad decisions has led me to where I am today. I 
+have a good job  that pays the bills, but I don’t think it’s a secret that it’s not a job I’d like
+to be doing for the rest of my life. For one thing, I work 12 hour night shifts and have been for
+the past 10 years. The older I get the harder it becomes, especially when you have a wife and kids.
+I would like to one day work in Computer Science or Web Development either at my current company
+or somewhere else that values my experience and knowledge. But I have no idea if I will ever be 
+able to get hired anywhere as a junior developer at my age but I’m doing this anyway because I 
+love it and just because.&lt;/p&gt;
+
+&lt;h2 id=&quot;thats-hope-right&quot;&gt;That’s hope, right?&lt;/h2&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Mindfulness</title>
+   <link href="http://localhost:4000/posts/2017/10/23/Mindfullness/"/>
+   <updated>2017-10-23T00:00:00-04:00</updated>
+   <id>http://localhost:4000/posts/2017/10/23/Mindfullness</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;Whatever you can do, or dream you can, begin it. Boldness has genius, magic, and power in it.
+Begin it now!
+– Goethe&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;When you grow up, you tend to get told that the world is the way it is and your life is just to
+live your life inside the world. Try not to bash into the walls too much. Try to have a nice
+family life, have fun, save money. That’s a very limited life. Life can be much broader once you
+discover one simple fact. That is–everything around you that you call life was made up by
+people no smarter than you. And you can change it. You can influence it… Once you learn that,
+you’ll never be the same again.
+– Steve Jobs&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The past is a foreign country: They do things differently there.”
+– L.P. Hartley - The Go-Between - 1953 novel&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;And alone and without his nest shall the eagle fly across the sun.”
+– The Prophet - Khalil Gibran&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;These are great quotes I’ve recently come across in my readings and the thing they have in common is the idea of change or human potential, that we are capable of so much more than we give ourselves credit for or believe. Living a life of intentionality. Being mindful in how we live our lives, instead of just blindly tripping our way through life and letting life and circumstances happen to us.&lt;/p&gt;
+
+&lt;p&gt;I’ve been thinking a lot about these concepts lately and the idea occurred to me that the way the vast majority of Americans live their lives is as Thoreau said, “the mass of men lead lives of quiet desperation.” We go to work, we come home, we sit in front of the TV for hours, we eat horrible food that is horrible for our bodies, we mindlessly consume everything. We are voracious consumers, but of everything that is bad for us, of nothing of true lasting value. Very few of us ever really accomplish anything in our lives outside of our careers, if we even feel accomplished there. We consume, we are passive. We are vegetables. We are fat and lazy and stupid. We don’t want to learn anything, read anything substantive, do anything, be anything. We just wanna be left alone in our own misery. Just leave me alone. We watch Cops and 24 hour news and The Voice so that we can live vicariously through others. We do nothing. We are nothing.&lt;/p&gt;
+
+&lt;p&gt;That’s how I lived my life for many years until at the age of 41, 50 lbs or more overweight, out of a 6 year failed relationship with the mother of two of my children, I decided to change my life.  I knew something had to change and that something was me. I started going to the gym and I’ve been going for a little over 3 years straight, but this isn’t a blog about the gym. It’s about wholeness and living a complete life and while I was going to the gym and getting my physical life in order, it was only recently that I realized that I can use that same comittment and discipline that I honed over three years in the gym to power all aspects of my life.&lt;/p&gt;
+
+&lt;p&gt;I don’t have to be glued to Facebook and other social media. I don’t have to be glued to the TV or the radio. I’m at a point in my life where I truly don’t understand people who say they are bored. How can you be bored when life is so short and there is so much to learn and do? 27 days ago I started the #100DaysofCode challenge on Twitter and I’ve accomplished so much. It’s amazing how much we can do when we turn off the distractions of life and live a life of intentionality and being mindful about what we are doing.&lt;/p&gt;
+
+&lt;p&gt;Living a life of intention means that for everything we do there is a purpose. We don’t just plop in front of the TV and veg out for hours on end, watching the same mindless BS. I actually haven’t even had cable TV for several years now and I believe it has helped to re-wire my brain. I probably only have 3 or 4 shows that I enjoy watching on TV, but I watch them on Netflix or CBS app and I intend to sit down and watch them. The Big Bang Theory is one of my favorites. Other than that, the TV is never just on to be on. I watch a lot of educational Youtube videos and have recently gotten into listening to podcasts, because the radio is more mindlessness. I’m convinced that no matter what channel you turn it to, they are all playing a setlist of maybe 10 songs if you’re lucky and they play the hell out of it. The same 10 songs over and over and over again and I can’t stand it. Why do I wanna listen to the exact same songs I’ve heard a million times? I love music but I can’t stand listening to the same shit all the time. There are actually long stretches of time where I won’t even turn the radio on in the car at all, unless NPR is on the air and I’ll listen to them.&lt;/p&gt;
+
+&lt;p&gt;And when you decide to live life this way you’ll find that the universe opens itself up to you in meaningful ways. You’ll encounter other people who live their lives this way, and you’ll come across other resources for living life this way almost as if by accident. You’ll be flooded with ideas for future projects and things to learn and do and see.&lt;/p&gt;
+
+&lt;p&gt;Don’t just be a passive consumer. Dead fish go with the flow. Learn something that is difficult and will take time. Read something important. Listen to others who are smarter and more accomplished than you, whether on Youtube or a podcast or through TED. Read War and Peace. You know you’ve been wanting to. Read 30 self development books in 6 months and blog about it. Run a 5k race. Run another one. Spend quality time with your family not glued to your smart phone. Turn that damn thing off once in awhile. Go outside for a walk. Take the dog for a walk. The kids. The wife. Cook a meal together. Take some classes. Write something. Help others. And when you do, “Speak your Truth even if your voice shakes!”&lt;/p&gt;
+
+&lt;h1 id=&quot;do&quot;&gt;Do!&lt;/h1&gt;
+
+&lt;h1 id=&quot;be&quot;&gt;Be!&lt;/h1&gt;
+
+&lt;p&gt;Life is a garden. Dig it! – Joe Dirt&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Setting up Custom Domain Name</title>
+   <link href="http://localhost:4000/posts/2017/10/17/setting-up-domain-names/"/>
+   <updated>2017-10-17T00:00:00-04:00</updated>
+   <id>http://localhost:4000/posts/2017/10/17/setting-up-domain-names</id>
+   <content type="html">&lt;p&gt;So, last night I got around to purchasing a domain name for my blog/portfolio site. After researching several different domain name providers, I came across &lt;a href=&quot;http://www.1and1.com&quot;&gt;1and1.com&lt;/a&gt;, which has an introductory offer too good to pass up, which is $.99 for the first year of your domain, provided that this is your first one. After first year it goes up to $14.99 but you could always change domain name providers if you found a cheaper offering.&lt;/p&gt;
+
+&lt;p&gt;So, I purchased the domain &lt;a href=&quot;http://flattdev.com&quot;&gt;flattdev.com&lt;/a&gt; and proceeded to set it up with my Jekyll blog site hosted via Github pages at &lt;a href=&quot;http://bflatt72.github.io&quot;&gt;bflatt72.github.io&lt;/a&gt;. The first step is to go to the settings page of your repo and scroll down to where it says custom domain. Type your new domain name in there and click save.&lt;/p&gt;
+
+&lt;p&gt;From there, I knew that I had to set up the domain via the provider in order to point it to the site on Github. But 1and1 doesn’t make this easy at all. They pretty much assume you already know what you are doing, because there is nothing to tell you exactly what you need to do. Did I need to set up forwarding to point it to the site? Or did I need to change the DNS settings? Nothing really tells you. On Github, if you click next to the custom domain setting on &lt;a href=&quot;https://help.github.com/articles/using-a-custom-domain-with-github-pages&quot;&gt;Learn More&lt;/a&gt;, there is some helpful info, which basically boils down to, you have to check with the domain provider to find out how to do it. But it did point me in the right direction of WHAT needed to be done.&lt;/p&gt;
+
+&lt;p&gt;First I tried to redirect the domain and that wasn’t working, however maybe I didn’t wait long enough for it to propogate? At any rate, I changed the DNS settings, changing the A Name to point to Github’s IP address, which they provided in their help pages. And, bingo, my page started to work and it worked all night at work and in the morning when I got home. This evening, back at work, I checked it and it had quit working, saying there were too many redirects or something. I’m not sure. I’m not a network guy, as you can tell. But I checked back at 1and1 and found that it had been changed back to a redirect, for some strange reason.&lt;/p&gt;
+
+&lt;p&gt;At this point, frustrated and just wanting someone to tell me which method I needed to employ, I called their 1-800 number and after waiting on hold for over 20 minutes, I finally reached a person, who didn’t seem like he knew anymore about this shit than I do. Frustrated with him, I told him I’ll figure it out myself, thanks for your help, and hung up.&lt;/p&gt;
+
+&lt;p&gt;After much trial and error, and reading between the lines of what the tech support was TRYING to say, and reading &lt;a href=&quot;http://www.stackoverflow.com&quot;&gt;Stack Overflow&lt;/a&gt; and Google, here is what I had to do:&lt;/p&gt;
+
+&lt;p&gt;For the main domain, &lt;a href=&quot;http://flattdev.com&quot;&gt;flattdev.com&lt;/a&gt;, I had to change the DNS settings to point to the IP address of Github’s servers. Github says you have to change the A Name to point to two separate IP addresses but I could only find a way to point it to one, which I did and which is 192.3.252.153 and 192.30.252.154. I just set it to the first one and after a few minutes my website began to work with the new domain name.&lt;/p&gt;
+
+&lt;p&gt;Then if you want to set up the domain to work with the www subdomain, you have to set that up by first creating that subdomain and using a frame redirect on it to point to your actual Github domain at username.github.io. After that change took effect, it began to work.&lt;/p&gt;
+
+&lt;p&gt;Very frustrating, and I’m betting that tech support and help pages at Godaddy are probably a lot better than they are at 1and1. They say you get what you pay for, but if you know what you’re doing, and now you do after reading this blog, you can’t really beat a domain name for $.99: just don’t expect much in the way of help from their tech support.&lt;/p&gt;
+
+&lt;h3 align=&quot;center&quot;&gt;Updates&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Finished the portfolio project on Free Code Camp.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It is now parked on a separate page of my blog at &lt;a href=&quot;http://flattdev.com&quot;&gt;flattdev.com&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Added a button on the portfolio to point back to the blog.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I have read the first book Up and Running in You Don’t Know JS by Kyle Simpson.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Working on Basic JavaScript in Free Code Camp.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reading The War of Art by Stephen Pressfield&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Saw Bladerunner 2049 other day and really enjoyed it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Listened to several coding podcasts on my travels to and from Raleigh from Knoxville over the weekend. Enjoying CodeNewbies and Developer Tea. Also listened to TWiT, not realizing it was still being produced. How old is Leo Laporte getting to be?&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/leolaporte.png&quot; alt=&quot;Leo Laporte&quot; class=&quot;img-responsive center-block&quot; height=&quot;150px&quot; width=&quot;150px&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 align=&quot;center&quot;&gt;Notable blog posts I read&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/swlh/developing-a-writing-habit-in-just-5-minutes-a-day-865f33c13b62&quot;&gt;Developing a Writing Habit - In Just 5 Minutes a Day&lt;/a&gt; by Mary Boone on Medium&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://css-tricks.com/the-art-of-comments&quot;&gt;The Art of Comments&lt;/a&gt; at CSS Tricks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 align=&quot;center&quot;&gt;Goals&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Write for at least 15 minutes every day.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Continue with 100DaysofCode, currently on Day 22.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Start the Make a Bookmarker project that saves to local storage, using only vanilla JS by Traversy Media on Youtube.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Next books to read:&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;The Obstacle is the Way by Ryan Holiday.&lt;/li&gt;
+      &lt;li&gt;Tranform Your Habits by James Clear&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Until next time, Peace!!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Changing Jeykll Theme</title>
+   <link href="http://localhost:4000/posts/2017/10/16/Changing-Jekyll-Theme/"/>
+   <updated>2017-10-16T00:00:00-04:00</updated>
+   <id>http://localhost:4000/posts/2017/10/16/Changing-Jekyll-Theme</id>
+   <content type="html">&lt;p&gt;I’m not sure if this is entirely normal, but I actually spent several hours last night looking for the perfect theme for my blog. I then reviewed how to change my theme and did so by forking and cloning it to a local repo and then copying and pasting my old posts over, changing the data in the _config.yml file, pushing it back up to my repo and deleting the old one locally. I didn’t really like the theme I was using anymore because of several reasons. It was very limited and didn’t include Disqus comments or Google Analytics although I’m sure I could have figured out how to add it on my own. Also, I found some styling bugs in mobile and just didn’t like the looks of the theme overall. I wanted something minimal, but with a bit larger and eye popping font. I think I achieved all of that with the Beautiful-Jekyll theme.&lt;/p&gt;
+
+&lt;p&gt;I also added my &lt;a href=&quot;http://www.freecodecamp&quot;&gt;Free Code Camp&lt;/a&gt; Portfolio project as another page to the blog. I found that in order to do this and bypass the template engine in order to use your own HTML/CSS and not cause conflicts all you have to do is not add the YAML header at the beginning of the HTML file. I then added another button to the portfolio page that links back to the blog and the Flatt Dev logo on the portfolio page links back to the blog. I wanted the portfolio to retain all my original code and not include any of the template layout so as to showcase my own coding skills.&lt;/p&gt;
+
+&lt;p&gt;100daysofcode is going great so far, today was day 20. I have as mentioned, completed the FCC portfolio project and am moving on now to learning JavaScript. I downloaded the first book of You Don’t Know Javascript to my Kindle and have read the first chapter so far. I am also going to start a small project I saw on Traversy Media, where he showed how to make a bookmark app that saves bookmarks to local storage, using Vanilla JavaScript.&lt;/p&gt;
+
+&lt;p&gt;I also learned how to embed a youtube video into Markdown. And damn, it worked on the first try. That NEVER happens. haha. Here is how you do it, via Google and this website &lt;a href=&quot;http://www.adamwadeharris.com/how-to-easily-embed-youtube-videos-in-jekyll-sites-without-a-plugin/&quot;&gt;Adam Wade Harris&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sometimes, this stuff really is like magic. Other times, things don’t work and I’m left staring at the code with arms folded, cursing “#(#&lt;em&gt;A))&lt;/em&gt;) why isn’t this &lt;em&gt;#))(**(&lt;/em&gt;&amp;amp;### working??!!!!!!!!” and after I look at it awhile, and Google, I’m like, “Oh, my bad! I made a mistake. I see what I did. haha Sorry about that bro!” I talk to myself like that! haha Sometimes it’s as simple as missing a semicolon. Other times, it’s as simple as adding a class of img-fluid. Other times I have to really dig into it and figure out what it is I’m not understanding. It’s frustrating as hell, but when it works? Oh man, I feel like the smartest man alive!! haha&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Git Merge Conflicts and Git Revert</title>
+   <link href="http://localhost:4000/posts/2017/10/03/git-merge-conflicts/"/>
+   <updated>2017-10-03T00:00:00-04:00</updated>
+   <id>http://localhost:4000/posts/2017/10/03/git-merge-conflicts</id>
+   <content type="html">&lt;p&gt;In this post I am going to talk about my first git revert I did on one of my projects tonight after learning first hand about merge conflicts and not fully understanding what to do at the time. And then I will give a few updates on my Web Dev learning progress and where I’m going from here. 
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h3 align=&quot;center&quot;&gt;Git Merge Conflicts&lt;/h3&gt;
+
+&lt;p&gt;So what happened was this. I had made a personal webpage project a week or so ago, my first one since learning HTML/CSS again after a few years. Then I created a branch called flex-box and I refactored the site and my Shaw Howe project using flexbox instead of inline-block and floats/clearfix. Great. All was well and I kept both branches for future reference. Last night I decided I was going to merge them and delete the flexbox branch, which I did. I got some merge errors but did what it said and I thought all was well.&lt;/p&gt;
+
+&lt;p&gt;Then at work last night, I was making some file edits on the Github website because I didn’t want to open up my laptop at the time. Figured I’d just pull the changes down to the local repo later. Fine. I forgot though that I had also made some edits and commits on the local repo the day before. Pretty sad when you have merge conflicts and you’re the only one working on the project. haha. So anyway, I knew I needed to pull my changes from the remote origin branch so I did:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git pull origin master
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and I got an error stating that my repo wasn’t up to date and I couldn’t merge, which is what pull does after fetch. So I then:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add &quot;filename&quot;
+git commit -m &quot;message&quot;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and try to pull again but now I get errors talking about a merge conflict. I open up the file and I see all this weird shit going on like&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;HEAD
+
+FLEXBOX&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;What the hell is that? I didn’t know. So I said screw it and was manually deleting all of that when I realized, “hey wait a minute this is what git is for,all I gotta do is revert back to an older commit and I should be good.” So I re watched the relevant&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/RIYrfkZjWmA&quot;&gt;The Net Ninja&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;video on Youtube and I checked out an older commit to make sure it was what I wanted, because some other weird changes had taken place too with my container widths and such. I reverted back to it using git revert and all was well.&lt;/p&gt;
+
+&lt;p&gt;It was then that I started reading up on the original merge issue and found out that those original weird changes in my file was git telling me what the conflict was. It was showing me the changes from both branches that were in conflict with each other. Oh well, that was done and the branch deleted. So the issue was that when I tried to pull the changes down from the remote origin it wouldn’t work because my local branch wasn’t up to date. And when I tried to make it up to date, there were merge conflicts because my origin and master branches had conflicting edits. I could have fixed it by just manually fixing the file but I did a git revert and fixed it that way.&lt;/p&gt;
+
+&lt;p&gt;Moral of the story. Be careful. Don’t edit files on Github origin and local master branches at same time unless you’re careful. What you should do if you are going to edit your files online, make sure to do a git pull first thing before you edit your files locally, that way you’re up to date and there won’t be any conflicts. Then you can edit and commit locally and push back up to origin. Then you can edit online if you ever need to and pull it back down to master local branch. But when you mess up and have edits in both master and origin branches, conflicts will arise and when you don’t know what you’re looking at you’ll think your local file got corrupted.&lt;/p&gt;
+
+&lt;p&gt;So that was funny but a learning experience. And what’s really funny is that that is actually how we learn, by making mistakes and googling and learning. Thank goodness for Stack Overflow, huh? I don’t think there’s an issue I’ve ever come across that didn’t pop up on stack overflow via a google search.&lt;/p&gt;
+
+&lt;h3 align=&quot;center&quot;&gt;Updates&lt;/h3&gt;
+
+&lt;p&gt;I am also going to school at the local community college getting my 2 year degree in Computer Information Technology - Programming. I’m currently taking Intro to Statistics and Intro to Computer Programming and Logic, both online with all exams taken on campus. Have had 2 exams so far, one in each class and I got a 94 in Stats and 98 in Programming. The latter consisted mostly of computer technology history, some binary number conversions and analyzing what a particular assembly language program was doing and how it worked. I really enjoyed learning the basics of Assembly because it teaches you about memory and the hardware architecture of the chipset. Cool.&lt;/p&gt;
+
+&lt;p&gt;This week in Programming we have a webpage project to create a webpage using HTML/CSS and it has to include some information about our hobbies and interests and must include at least 3 to 5 photos, a few links and at least one ul or ol list. My solution can be seen at:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bflatt72.github.io/projects/CITC1301&quot;&gt;CITC1301&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Yesterday I completed the Build a Tribute Page project on FreeCodeCamp. My solution can be seen at&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://codepen.io/bflatt72/full/zEEoWB&quot;&gt;Dr Sheldon Cooper&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It was my understanding that we were to complete the project using only bootstrap so I tried to do that as much as possible using very little custom CSS. What I found was that I don’t like Bootstrap all that much. For starters it doesn’t use best practices, clutters your HTML with a lot of non semantic classes and doesn’t allow as much styling options. For example, with milions of colors to choose from, Bootstrap only gives you like 6 color options. But I did it and it’s a very basic solution, nothing fancy. My next project will be to complete the Build a Personal Portfolio Webpage from FreeCodeCamp.&lt;/p&gt;
+
+&lt;p&gt;I also need to work on getting better organized. That’s always been one of my biggest issues to date. I started the #100daysofcode challenge and have that downloaded from Github to a local repo and I try to update that on a regular basis. I also want to add some files to that repo where I can add resources I’ve come across and a progress folder detailing my exact curriculum I’m following as I complete each learning resource and project. I’m kind of doing both FreeCodeCamp and The Odin Project and have also taken great notice of a learning guide on Github that P1xt put together from a thread he originally had on Reddit. It can be found at&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/P1xt/p1xt-guides&quot;&gt;P1xt&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;He has several different guides but the one I want to work through over the next two years is the one on Web Development with Computer Science. My plan is to learn as much Web Dev as I can, on the JavaScript side of things instead of Rails while obtaining my 2 year degree in computer programming over the next two years, which will also allow me to take part in an internship towards the end of my degree and when I’m done with all of this I would love to get a job somewhere in Oak Ridge TN, maybe the lab? That would be quite awesome. My only concern is my age. I’m currently 45 and will be 47 when I get done with my degree, however various people have assured me hiring managers do hire career changers at my age. Who’s gonna tell me I can’t do it anyway? I’m the only one that can hold myself back.&lt;/p&gt;
+
+&lt;p&gt;Peace!!!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Learning CSS Flexbox and Progress Update</title>
+   <link href="http://localhost:4000/posts/2017/09/26/Learning-CSS-Flexbox/"/>
+   <updated>2017-09-26T00:00:00-04:00</updated>
+   <id>http://localhost:4000/posts/2017/09/26/Learning-CSS-Flexbox</id>
+   <content type="html">&lt;p&gt;For the past week or so I’ve been working through &lt;a href=&quot;learn.shayhowe.com&quot;&gt;Shay Howe’s HTML/CSS Tutorial&lt;/a&gt; and last night I completed it. Instead of just reading through it though and trying to retain as much as possible,  I actually coded his example website along with the tutorial making sure never to use copy and paste except for color codes and long paragraph sections. All the code was done by hand, code along style.&lt;br /&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h3 id=&quot;my-thoughts&quot;&gt;My Thoughts&lt;/h3&gt;
+
+&lt;p&gt;Shay Howe’s tutorial is a really great resource for a birds eye view of HTML and CSS and it gets you to build a pretty complex multi page website for a Styles Conference complete with a schedule of events and a Google map of the location.&lt;/p&gt;
+
+&lt;p&gt;My iteration of the website can be seen at &lt;a href=&quot;https://bflatt72.github.io/projects/shayhowe&quot;&gt;Styles Conference&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To build out the full website there are about a dozen or more speakers to include on the speakers page along with their bios. I did not build out all of the speakers as I figured after doing a few of them I would know how to do it and it’s not a real production website anyway.&lt;/p&gt;
+
+&lt;p&gt;This tutorial was also written before Flexbox and CSS Grid layout and also does not go into frameworks like Bootstrap at all. This was how websites were built prior to all of that but but with CSS involved, one didn’t have to use HTML tables anymore to build layouts. You do use tables though to build the schedule page.&lt;/p&gt;
+
+&lt;p&gt;You also create a grid for the layout of major sections and then use floats and inline block to move the elements within the grid, however this is not the new CSS Grid implementation that everyone is now talking about in 2017.&lt;/p&gt;
+
+&lt;p&gt;The way this was done prior to Flexbox and all of that was done by first defining the grid as follows:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.container,
+ grid {
+	margin: 0 auto
+	width: 960px;
+}
+
+.container {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.col-1-3 {
+	width: 33.3%;
+}
+
+.col-2-3 {
+	width: 66.66%
+}
+
+.col-1-3,
+.col-2-3 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.grid,
+.col-1-3,
+.col-2-3 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This is quite a lot but essentially its saying that an element with a class of col-1-3 will take up 33.3% of the page and an element with a class of col-2-3, twice that or 66.66% and sets some styling to the grid and sets display to inline block so that elements follow each other inline and don’t stack up on the page.&lt;/p&gt;
+
+&lt;p&gt;There’s also a clearfix added to the CSS due to the use of floats.&lt;/p&gt;
+
+&lt;p&gt;Now in the HTML you can layout the page like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;section class=&quot;row&quot;&amp;gt;
+	&amp;lt;div class=&quot;grid&quot;&amp;gt;
+
+&amp;lt;section class=&quot;teaser col-1-3&quot;&amp;gt;
+	&amp;lt;h5&amp;gt;Speaker&amp;lt;/h5&amp;gt;
+	&amp;lt;a href=&quot;speakers.html&quot;&amp;gt;
+		&amp;lt;img src=&quot;assets/images/home/speakers.jpg&quot; alt=&quot;Professional Speaker&quot;&amp;gt;
+		&amp;lt;h3&amp;gt;World Class Speakers&amp;lt;/h3&amp;gt;
+	&amp;lt;/a&amp;gt;
+
+	&amp;lt;p&amp;gt;Dadadadadada Lorem Ipsum &amp;lt;/p&amp;gt;
+
+	&amp;lt;/section&amp;gt;&amp;lt;!--
+
+--&amp;gt;&amp;lt;section class=&quot;teaser col-1-3&quot;&amp;gt;
+      etc etc
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Notice how we had to comment out the spaces between the teaser sections. This was because of the way we were doing the layout with inline-block. Without this commenting out in between, then the sections would have spaces between them and would then wrap to next line if they overflowed the line. Using inline block allows us to layout the 3 teaser sections on same line next to each other instead of the default block behavior where they stack up below each other however if we don’t comment out the spaces in between then it wont’ all fit on one line and the third section will wrap to next line.&lt;/p&gt;
+
+&lt;p&gt;As they say in web developement circles, this all worked but it was “hacky”. It was a hack, a way around the limited layout capabilities of CSS at the time. They didn’t have to use tables or anything but if you wanted to layout sections on the page like this you had to use inline block and the comment hack.&lt;/p&gt;
+
+&lt;p&gt;With Flexbox this would all be done away with quite simply.&lt;/p&gt;
+
+&lt;p&gt;The logo of the page is floated to the left and the navbar is set to inline block and text aligned to the right. Because of the use of the float we have to apply the clearfix (yet another hack) to the nearest parent element by adding the group class to it.&lt;/p&gt;
+
+&lt;p&gt;This was all great and you can have a look at the finished website and it’s all quite nice and works. As I said this was the way layouts were done before Flexbox and CSS Grid. You had to hack around the limitations of CSS at the time.&lt;/p&gt;
+
+&lt;p&gt;But then with Flexbox things became so much easier and after familiarizing myself with it, what I decided to do was to create another branch in my repo and call it flex-box. On that branch I refactored the website using flexbox instead of the old inline blocks and grid layout. With the use of flexbox all of that can be deleted. Mine still has some of the old code in it though because I just wanted to demonstrate my new found knowledge of Flexbox.&lt;/p&gt;
+
+&lt;p&gt;You can look at my repos and the two branches by going to&lt;a href=&quot;https://github.com/bflatt72/projects/tree/master/shayhowe&quot;&gt;master&lt;/a&gt; and &lt;a href=&quot;https://github.com/bflatt72/projects/tree/flex-box/shayhowe&quot;&gt;flexbox&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But watch what we can do now. We can delete that entire section in the CSS creating the grid, we can delete the clearfix because we aren’t using floats anymore and we can delete the old group class for the clearfix and the row class and grid class. Pretty amazing. And watch what we do now. Like the old Outkast song &lt;a href=&quot;https://youtu.be/-JfEJq56IwI&quot;&gt;So Fresh and so Clean&lt;/a&gt; haha.&lt;/p&gt;
+
+&lt;p&gt;Now we just set a flex container around the elements we want to layout and then the elements inside the container become flex items. For my nav bar at top for example:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&amp;lt;nav class=&quot;primary-nav&quot;&amp;gt;
+		&amp;lt;ul class=&quot;nav&quot;&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;index.html&quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;speakers.html&quot;&amp;gt;Speakers&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;schedule.html&quot;&amp;gt;Schedule&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;venue.html&quot;&amp;gt;Venue&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href=&quot;register.html&quot;&amp;gt;Register&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+		&amp;lt;/ul&amp;gt;
+	&amp;lt;/nav&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then in the CSS:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; 	.nav {
+ 		display: flex;
+ 		justify-content: flex-end;
+ }
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;And that’s it. The nav bar links now are side by side in the header and align to the right side of the screen and then we can apply some margin and padding properties to align it precisely how we want.&lt;/p&gt;
+
+&lt;p&gt;There’s actually a whole lot more involved with Flexbox than that and a whole lot more that you can do. This is just scratching the surface but you can see how powerful it is and how we no longer have to use floats and clearfixes or inline-block and comment hack.&lt;/p&gt;
+
+&lt;p&gt;Some great resources I used to learn Flexbox were:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bflatt72/Understanding-Flexbox&quot;&gt;Understanding Flexbox by Ohans Emmanuel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&quot;&gt;The Net Ninja Flexbox Tutorial vids on Youtube&lt;/a&gt;. I can’t recommend all of his vidoes enough. I have also gone through his Git/Github tutorials and they are quite simply amazing. He’s currently doing a series on the new CSS Grid implementation.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox&quot;&gt;MDN&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://css-tricks.com/snippets/css/a-guide-to-flexbox/&quot;&gt;CSS-Tricks A Complete Guide to Flexbox&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;After this, my plan going forward is as follows:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;I am going to do the video code along series by Wes Bos called &lt;a href=&quot;https://flexbox.io&quot;&gt;What the Flexbox&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Do the first couple front end development projects on FreeCodeCamp&lt;/li&gt;
+  &lt;li&gt;Re do the Google home page project from the Odin Project&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And then I’m gonna move on to Javascript.&lt;/p&gt;
+
+&lt;p&gt;Things I’ve learned over the last couple of weeks:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Git/Github&lt;/li&gt;
+  &lt;li&gt;HTML/CSS&lt;/li&gt;
+  &lt;li&gt;Flexbox&lt;/li&gt;
+  &lt;li&gt;Beginning CSS Grid&lt;/li&gt;
+  &lt;li&gt;Bootstrap&lt;/li&gt;
+  &lt;li&gt;I also spent an evening tricking out my Sublime text editor with cool plugins/packages and installed an in editor tutorial on keyboard shortcuts and I’ve begun using them.&lt;/li&gt;
+&lt;/ol&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>How to Contribute to Open Source Projects on Github</title>
+   <link href="http://localhost:4000/posts/2017/09/21/github-howto-contribute/"/>
+   <updated>2017-09-21T00:00:00-04:00</updated>
+   <id>http://localhost:4000/posts/2017/09/21/github-howto-contribute</id>
+   <content type="html">&lt;p&gt;Last night I contributed to my very first open source project on Github and it was such an amazing feeling that I want to talk a bit about it and walk through the steps involved. 
+&lt;!--more--&gt; 
+Backstory: I was searching on Github for people to follow and one person I was familiar with was &lt;a href=&quot;https://github.com/ohansemmanuel&quot;&gt;Ohans Emmanuel&lt;/a&gt;. I knew that he writes great CSS guides and I had conversed with him briefly on Twitter about one of his paid guides. One of his free ones goes into detail about Flexbox and is entitled &lt;a href=&quot;https://github.com/ohansemmanuel/Understanding-Flexbox&quot;&gt;Understanding Flexbox&lt;/a&gt;. As I was looking through this great resource on Github I happened to notice that many of the chapter links in the README.md file were not working. I said, “hmmm, this would be an easy fix, all Id have to do is correct the Markdown in the file. I wonder if he knows the chapter links aren’t working.” So I submitted an issue about it but instead of waiting for a response I figured I’d go ahead and fix it and if for some reason he didn’t want me to or if there was a reason he wanted the links not working for now, all he’d have to do is not accept my pull request and not merge it. I had never contributed to anything on Github up to this point and was unsure of the etiqutte and all involved. So here was the process by which I fixed the links and submitted a pull request.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;I went to the project page and forked the project by clicking the fork button. This made a branch of the project into my account.&lt;/li&gt;
+  &lt;li&gt;Then I went to my command line and did the following:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mkdir Understanding-Flexbox
+cd Understanding-Flexbox
+git clone &quot;URL of the fork&quot;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I obtained the URL by going back to the fork and clicking on the clone or download button and copying the URL.&lt;/p&gt;
+
+&lt;p&gt;Now I had a copy of the entire project on my local machine and could open the readme file in my editor as follows:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd Understanding-Flexbox
+gedit readme.md
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I edited the Markdown of the links to point to the correct URL’s of the relevant chapters and saved the file.&lt;/p&gt;
+
+&lt;p&gt;Next step is to push the changes up to my fork on Github.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add --all
+git commit -m &quot;Fix broken chapter links&quot;
+git push origin master
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;At this point, I went back to the fork on Github and verified that all links now work and point to each relevant chapter. All that was left was to submit a pull request so that Ohans could merge my fixes up to the main project.&lt;/p&gt;
+
+&lt;p&gt;On the main project page I clicked on the submit pull request button and filled out the title and message letting him know that I fixed the broken chapter links and thanking him for letting me contribute.&lt;/p&gt;
+
+&lt;p&gt;The next morning I woke up to a message from Ohans saying he hadn’t noticed the broken links and thanking me for fixing them. I thanked him for letting me contribute even if in such a small way and let him know this was my first Github project contribution. I then went to the main project page and saw that the links now worked.&lt;/p&gt;
+
+&lt;p&gt;None of this may seem like a big deal to most people who have been doing this for awhile, but it was exciting for me being my first open source project contribution and now I’m listed on the project as a contributor. Also, I thought this would be a good opportunity to blog about it and giving a short tutorial on the process of submitting a pull request for those who may be even greener at web development than I am.&lt;/p&gt;
+
+&lt;p&gt;And to Ohans, I thank you again for allowing me to contribute and for giving me the opportunity.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Jekyll Blog Setup</title>
+   <link href="http://localhost:4000/posts/2017/09/14/Jekyll-Blog-Setup/"/>
+   <updated>2017-09-14T00:00:00-04:00</updated>
+   <id>http://localhost:4000/posts/2017/09/14/Jekyll-Blog-Setup</id>
+   <content type="html">&lt;p&gt;Last night I spent a few hours learning how to set up a Jekyll blog and deploying it with Github Pages. I had wanted to start a blog about my experiences in learning web development, but I haven’t actually blogged in quite some time. In my research &lt;!--more--&gt; I came across Jekyll and read this article on Smashing Magazine &lt;a href=&quot;https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/&quot;&gt;Build a Blog With Jekyll and Github Pages&lt;/a&gt;. What I liked about the concept of blogging with Jekyll was the control I would have over it and the fact that I could host it for free with Github pages. I would also be able to practice my Git skills and the blog would have version control. Since I needed to set up a blog again anyway, now seemed like a good time to learn Jekyll. Other sources I used to help me in this process were:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.hongkiat.com/blog/blog-with-jekyll/&quot;&gt;Hongkiat-How to Create a Blog with Jekyll - A Beginner’s Guide&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/docs/quickstart/&quot;&gt;Jekyll Documentation - Quick Start Guide&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Things learned or reviewed through this process:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Git, Github and Github Pages&lt;/li&gt;
+  &lt;li&gt;Linux (Ubuntu)&lt;/li&gt;
+  &lt;li&gt;Jekyll&lt;/li&gt;
+  &lt;li&gt;Ruby?&lt;/li&gt;
+  &lt;li&gt;Markdown&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-first-step-in-this-process-was-to-install-jekyll-from-the-command-line-as-follows&quot;&gt;The first step in this process was to install Jekyll from the command line as follows:&lt;/h4&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo gem install jekyll
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and then to check the installation using:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll -v
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;However, upon doing this I received errors stating that it could not find the gem so I tried, as per the Jekyll quick start documentation:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo gem install jekyll bundler
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;which also did not work. Consulting Google I found I had to do this first:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo gem install pygments.rb
+gem install bundler
+bundle install
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and then the install again and this worked.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-second-step-was-to&quot;&gt;The second step was to:&lt;/h4&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll new myblog
+cd myblog
+bundle exec jekyll serve
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This created all the files and folders needed along with the minima theme which is installed by default. I later figured out how to install a new theme, which I did by installing the &lt;a href=&quot;https://github.com/itsrifat/rifyll&quot;&gt;Rifyll theme&lt;/a&gt;, which I will discuss further later.&lt;/p&gt;
+
+&lt;p&gt;Another way to install a Jekyll blog on your machine is to fork and clone a theme repository into your myblog folder. That’s how I installed the theme, but not before realizing that by cloning it into the myblog folder it was installing it on top of the already installed minima theme and had to manually rm the minima theme folders and files.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-third-step-to-creating-a-blog-was-to-change-any-layout-settings-in-the-_configyml-file&quot;&gt;The third step to creating a blog was to change any layout settings in the _config.yml file&lt;/h4&gt;
+
+&lt;h4 id=&quot;fourth-step-was-to-create-a-blog-post-in-the-_posts-folder-using-standard-jekyll-file-naming-convention-as-follows&quot;&gt;Fourth step was to create a blog post in the _posts folder using standard jekyll file naming convention as follows.&lt;/h4&gt;
+
+&lt;p&gt;2017-09-14-Blog-Post-Title.md&lt;/p&gt;
+
+&lt;p&gt;Markdown can be used to format the post. Once the file is saved, you can run:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll serve
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and point your browser to localhost:4000 to see the blog.&lt;/p&gt;
+
+&lt;p&gt;Oh, the very first thing that needs to be done before anything else is to cd to the myblog folder and run:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git init
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This will set up git version control on the blog and is needed in order to push the blog to your repository.&lt;/p&gt;
+
+&lt;p&gt;Speaking of your repository, you need to head to your Github account and make a repository by clicking the + symbol in upper right hand corner and setting the name of the repository which has to be in the form of username.github.io Trying myblog did not work as username didn’t either. Trusty Google pointed me in the right direction. Then copy and paste the repository name and head back to the command line and run the following:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone git@github.com:yourusername/yourusername.github.io.git
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now, after writing a post in the _posts folder with the proper YAML heading as can be found by reading &lt;a href=&quot;https://jekyllrb.com/docs/frontmatter/&quot;&gt;Front Matter&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Then you can:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add --all
+git commit -m &quot;commit message&quot;
+git push origin master
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and voila your blog will be live at username.github.io&lt;/p&gt;
+
+&lt;p&gt;Pat yourself on the back because you’ve created a blog and learned and practiced git commands in the process. The entire process may have taken several hours with googling error messages but you can be proud you’ve done something, created a blog from scratch, that most people using Wordpress.com will never do.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Teaching Myself Web Development</title>
+   <link href="http://localhost:4000/2017/09/13/Teaching-Myself-Web-Development/"/>
+   <updated>2017-09-13T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2017/09/13/Teaching-Myself-Web-Development</id>
+   <content type="html">&lt;p&gt;This is the first time I’ve blogged in quite some time, but I want to keep a record of my learning outcomes as I teach myself web development over the next couple of years and to help reinforce concepts by creating a kind of permanent mind map.&lt;/p&gt;
+
+&lt;p&gt;My history with Web Development&lt;/p&gt;
+
+&lt;p&gt;My familiarity with HTML and CSS actually comes from my experience with blogging and setting up static webpages back in the late 90’s. Blogger was one of the platforms I used quite a bit and I was able to change the layout and templating of my site by messing under the hood with the underlying HTML just by looking at it and seeing what it was that it was doing and changing things and observing what happened…
+Sometimes I broke the page and sometimes it worked. When I really wanted to change how the site looked I looked at the CSS but for some reason that looked entirely foreign to me and there didn’t seem to be a whole lot of resources online to learn from as there seems to be today so I just pretty much left CSS along. Javascript I never even got around to. So in this way, I learned HTML just in order to help facilitate what I wanted to do with my own blog. I can remember that the HTML and CSS was all together in the same file too, CSS at the top and HTML at the bottom.&lt;/p&gt;
+
+&lt;p&gt;Back in the early 2000’s I took some correspondence coursework that included learning C++. It didn’t go too well trying to teach myself a full fledged language and I got frustrated and quit.&lt;/p&gt;
+
+&lt;p&gt;A couple years ago I decided I wanted to teach myself Web Development and messed around with &lt;a href=&quot;https://www.udacity.com&quot;&gt;Udacity&lt;/a&gt;, &lt;a href=&quot;https://www.codecademy.com&quot;&gt;Codecademy&lt;/a&gt;, &lt;a href=&quot;https://www.freecodecamp.com&quot;&gt;Free Code Camp&lt;/a&gt;, and &lt;a href=&quot;https://www.theodinproject.com&quot;&gt;The Odin Project&lt;/a&gt;, however I got frustrated with Javascript after a couple months and gave up again, but not before I taught myself how to install and use Ubuntu Linux, Git and Github.&lt;/p&gt;
+
+&lt;p&gt;Around that time I started going to the gym and getting into physical fitness and health after turning 41 and being 50 lbs over weight and realizing something needed to change with my life. By all rights and in accordance with everything else in my life, this should have only lasted a couple months before I got bored and quit yet another personal project, however 3 years later and I’m still going strong and what I’ve learned in that time is that I can I use that same dedication and discipline that I use for the gym in other areas of my life, all areas of my life.&lt;/p&gt;
+
+&lt;p&gt;So I’m back now to teaching myself web developement along with going back to school at the local community college majoring in programming. What I want to do is to finish my degree in the next two years and also use that time to teach myself all the ins and outs of full stack web development and computer science. I’ve come across a whole lot of amazing resources online and in my next blog post I will talk about some of these and what my plan is going forward.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+
+</feed>

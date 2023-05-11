@@ -1,0 +1,21 @@
+# Setup
+title:               FlattDev 
+tagline:             'Just a dude! Not an AI Large Language Model!'
+
+url:                 https://bflatt72.github.io
+baseurl:             ''
+paginate:            5
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Brian Flatt
+  email:             beatz72@duck.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y

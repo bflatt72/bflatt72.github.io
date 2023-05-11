@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Git Merge Conflicts and Git Revert &middot; FlattDev
+    
+  </title>
+
+  
+  <link rel="canonical" href="http://localhost:4000/posts/2017/10/03/git-merge-conflicts/">
+  
+
+  <link rel="stylesheet" href="http://localhost:4000/public/css/poole.css">
+  <link rel="stylesheet" href="http://localhost:4000/public/css/syntax.css">
+  <link rel="stylesheet" href="http://localhost:4000/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="http://localhost:4000/public/favicon.ico">
+
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost:4000/atom.xml">
+
+  
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p></p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="http://localhost:4000/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="http://localhost:4000/about/">About</a>
+        
+      
+    
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+
+    <a class="sidebar-nav-item" href="/archive/v1.1.0.zip">Download</a>
+    <a class="sidebar-nav-item" href="">GitHub project</a>
+    <span class="sidebar-nav-item">Currently v1.1.0</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2023. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">FlattDev</a>
+            <small>Just a dude! Not an AI Large Language Model!</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">Git Merge Conflicts and Git Revert</h1>
+  <span class="post-date">03 Oct 2017</span>
+  <p>In this post I am going to talk about my first git revert I did on one of my projects tonight after learning first hand about merge conflicts and not fully understanding what to do at the time. And then I will give a few updates on my Web Dev learning progress and where I’m going from here. 
+<!--more--></p>
+<h3 align="center">Git Merge Conflicts</h3>
+
+<p>So what happened was this. I had made a personal webpage project a week or so ago, my first one since learning HTML/CSS again after a few years. Then I created a branch called flex-box and I refactored the site and my Shaw Howe project using flexbox instead of inline-block and floats/clearfix. Great. All was well and I kept both branches for future reference. Last night I decided I was going to merge them and delete the flexbox branch, which I did. I got some merge errors but did what it said and I thought all was well.</p>
+
+<p>Then at work last night, I was making some file edits on the Github website because I didn’t want to open up my laptop at the time. Figured I’d just pull the changes down to the local repo later. Fine. I forgot though that I had also made some edits and commits on the local repo the day before. Pretty sad when you have merge conflicts and you’re the only one working on the project. haha. So anyway, I knew I needed to pull my changes from the remote origin branch so I did:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git pull origin master
+
+</code></pre></div></div>
+
+<p>and I got an error stating that my repo wasn’t up to date and I couldn’t merge, which is what pull does after fetch. So I then:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add "filename"
+git commit -m "message"
+
+</code></pre></div></div>
+
+<p>and try to pull again but now I get errors talking about a merge conflict. I open up the file and I see all this weird shit going on like</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt;HEAD
+
+FLEXBOX&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+
+</code></pre></div></div>
+
+<p>What the hell is that? I didn’t know. So I said screw it and was manually deleting all of that when I realized, “hey wait a minute this is what git is for,all I gotta do is revert back to an older commit and I should be good.” So I re watched the relevant</p>
+
+<p><a href="https://youtu.be/RIYrfkZjWmA">The Net Ninja</a></p>
+
+<p>video on Youtube and I checked out an older commit to make sure it was what I wanted, because some other weird changes had taken place too with my container widths and such. I reverted back to it using git revert and all was well.</p>
+
+<p>It was then that I started reading up on the original merge issue and found out that those original weird changes in my file was git telling me what the conflict was. It was showing me the changes from both branches that were in conflict with each other. Oh well, that was done and the branch deleted. So the issue was that when I tried to pull the changes down from the remote origin it wouldn’t work because my local branch wasn’t up to date. And when I tried to make it up to date, there were merge conflicts because my origin and master branches had conflicting edits. I could have fixed it by just manually fixing the file but I did a git revert and fixed it that way.</p>
+
+<p>Moral of the story. Be careful. Don’t edit files on Github origin and local master branches at same time unless you’re careful. What you should do if you are going to edit your files online, make sure to do a git pull first thing before you edit your files locally, that way you’re up to date and there won’t be any conflicts. Then you can edit and commit locally and push back up to origin. Then you can edit online if you ever need to and pull it back down to master local branch. But when you mess up and have edits in both master and origin branches, conflicts will arise and when you don’t know what you’re looking at you’ll think your local file got corrupted.</p>
+
+<p>So that was funny but a learning experience. And what’s really funny is that that is actually how we learn, by making mistakes and googling and learning. Thank goodness for Stack Overflow, huh? I don’t think there’s an issue I’ve ever come across that didn’t pop up on stack overflow via a google search.</p>
+
+<h3 align="center">Updates</h3>
+
+<p>I am also going to school at the local community college getting my 2 year degree in Computer Information Technology - Programming. I’m currently taking Intro to Statistics and Intro to Computer Programming and Logic, both online with all exams taken on campus. Have had 2 exams so far, one in each class and I got a 94 in Stats and 98 in Programming. The latter consisted mostly of computer technology history, some binary number conversions and analyzing what a particular assembly language program was doing and how it worked. I really enjoyed learning the basics of Assembly because it teaches you about memory and the hardware architecture of the chipset. Cool.</p>
+
+<p>This week in Programming we have a webpage project to create a webpage using HTML/CSS and it has to include some information about our hobbies and interests and must include at least 3 to 5 photos, a few links and at least one ul or ol list. My solution can be seen at:</p>
+
+<p><a href="https://bflatt72.github.io/projects/CITC1301">CITC1301</a></p>
+
+<p>Yesterday I completed the Build a Tribute Page project on FreeCodeCamp. My solution can be seen at</p>
+
+<p><a href="https://codepen.io/bflatt72/full/zEEoWB">Dr Sheldon Cooper</a></p>
+
+<p>It was my understanding that we were to complete the project using only bootstrap so I tried to do that as much as possible using very little custom CSS. What I found was that I don’t like Bootstrap all that much. For starters it doesn’t use best practices, clutters your HTML with a lot of non semantic classes and doesn’t allow as much styling options. For example, with milions of colors to choose from, Bootstrap only gives you like 6 color options. But I did it and it’s a very basic solution, nothing fancy. My next project will be to complete the Build a Personal Portfolio Webpage from FreeCodeCamp.</p>
+
+<p>I also need to work on getting better organized. That’s always been one of my biggest issues to date. I started the #100daysofcode challenge and have that downloaded from Github to a local repo and I try to update that on a regular basis. I also want to add some files to that repo where I can add resources I’ve come across and a progress folder detailing my exact curriculum I’m following as I complete each learning resource and project. I’m kind of doing both FreeCodeCamp and The Odin Project and have also taken great notice of a learning guide on Github that P1xt put together from a thread he originally had on Reddit. It can be found at</p>
+
+<p><a href="https://github.com/P1xt/p1xt-guides">P1xt</a></p>
+
+<p>He has several different guides but the one I want to work through over the next two years is the one on Web Development with Computer Science. My plan is to learn as much Web Dev as I can, on the JavaScript side of things instead of Rails while obtaining my 2 year degree in computer programming over the next two years, which will also allow me to take part in an internship towards the end of my degree and when I’m done with all of this I would love to get a job somewhere in Oak Ridge TN, maybe the lab? That would be quite awesome. My only concern is my age. I’m currently 45 and will be 47 when I get done with my degree, however various people have assured me hiring managers do hire career changers at my age. Who’s gonna tell me I can’t do it anyway? I’m the only one that can hold myself back.</p>
+
+<p>Peace!!!</p>
+
+</div>
+
+
+<div class="related">
+  <h2>Related posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2019/01/03/FlaskTutorial/">
+            Flasktutorial
+            <small>03 Jan 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2019/01/02/New-year-2019/">
+            New Year 2019
+            <small>02 Jan 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/posts/2018/12/14/Success-is-a-Habit/">
+            Success is a Habit
+            <small>14 Dec 2018</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script src='/public/js/script.js'></script>
+  </body>
+</html>
