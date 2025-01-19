@@ -2,7 +2,5 @@
 
 source "https://rubygems.org"
 
-# gem "rails"
+gemspec
 
-gem "jekyll", "~> 4.3"
-gem "jekyll-paginate"
