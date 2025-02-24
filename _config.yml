@@ -24,7 +24,7 @@ navbar-links:
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Author's home: "https://www.flattdev.com"
 
 ################
 # --- Logo --- #
@@ -72,7 +72,7 @@ social-network-links:
 #  yelp: yourname
 #  telegram: yourname
 #  calendly: yourname
-#  mastodon: instance.url/@username
+   mastodon: linuxrocks.online/@beatzai
 #  bluesky: yourname
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
@@ -106,7 +106,7 @@ url-pretty: "www.flattdev.com"
 title-on-all-pages: true
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
-excerpt_length: 50
+excerpt_length: 25
 
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true
